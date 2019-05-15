@@ -11,3 +11,9 @@ userDomainName: Default
 #password:
 projectName: cloud_admin
 projectDomainName: ccadmin
+
+metrics:
+  port: 9191
+
+  # Name of the Prometheus supposed to scrape the metrics and assign alerts to.
+  prometheus: openstack
